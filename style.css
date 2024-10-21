@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
 
 ::after,
@@ -138,4 +139,37 @@ a.sidebar-link:hover {
 #sidebar.expand .sidebar-link[data-bs-toggle="collapse"].collapsed::after {
   transform: rotate(45deg);
   transition: all 0.2s ease-out;
+=======
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #ececec;
+}
+
+/* ------------------ Login Container --------------- */
+.box-area {
+  width: 850px;
+}
+/* ------------------ Right Box --------------- */
+.right-box {
+  padding: 30px 30px 30px 30px;
+}
+/* ------------------ Custom Placeholder --------------- */
+::placeholder {
+  font-size: 16px;
+}
+/* ------------------ For Small Screens --------------- */
+@media only screen and (max-width: 768px) {
+  .box-area {
+    margin: 0 10px;
+  }
+  .left-box {
+    height: 100px;
+    overflow: hidden;
+  }
+  .right.box {
+    padding: 20px;
+  }
+>>>>>>> 228c76f (third commit)
 }
